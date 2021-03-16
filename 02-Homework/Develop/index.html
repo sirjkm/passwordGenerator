@@ -9,9 +9,10 @@
   </head>
   <body>
     <div class="container">
-      <h1>Password Generator</h1>
-      <h3>password</h3>
-      <form>
+      <h1 class="title">Password Generator</h1>
+      <h5 class="title">Generate Your Own Unique Password</h5>
+      <h3 class="password-screen" id="passwordScreen">password</h3>
+      <form class="form" id="passwordGenerator">
         <label for="numberOfCharacters">Number of Characters</label>
         <input type="number" min="8" max="128" value="8" id="numberOfCharacters">
 
@@ -25,7 +26,10 @@
         <input type="checkbox" id="specialCharactersIncluded">
 
         <button id="generate">Generate Password</button>
+
       </form>
     </div>
+
+    <script src="./script.js"></script>
   </body>
 </html>

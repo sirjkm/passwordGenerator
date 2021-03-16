@@ -1,3 +1,69 @@
 body {
-  
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #003566;
+  color: #001d3d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  padding: 3rem;
+  background-color: #ffc300;
+  border: 2px solid black;
+  border-radius: 1rem;
+}
+
+.title {
+  display: flex;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: auto auto;
+  row-gap: 1rem;
+  column-gap: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+
+label {
+  font-weight: bold;
+}
+
+.password-screen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  color: #000814;
+  padding: 1rem;
+  border: 1px solid #000814;
+  height: 2rem;
+  width: 350px;
+  word-break: break-all;
+  border-radius: 0.5rem;
+}
+
+#generate {
+  grid-column: span 2;
+  border: solid #000814;
+  border-radius: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: transparent;
+  color: #000814;
+  font-weight: bold;
+}
+
+#generate:hover {
+  background-color: #FFFFFF33;
 }
